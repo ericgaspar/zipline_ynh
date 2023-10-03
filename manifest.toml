@@ -2,8 +2,8 @@
 
 packaging_format = 2
 
-id = "example"
-name = "Example app"
+id = "zipline"
+name = "Zipline"
 description.en = "Explain in *a few (10~15) words* the purpose of the app or what it actually does (it is meant to give a rough idea to users browsing a catalog of 100+ apps)"
 description.fr = "Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'objectif est de donner une idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)"
 
@@ -13,8 +13,8 @@ maintainers = ["johndoe"]
 
 [upstream]
 # NB: Only the "license" key is mandatory. Remove entries for which there's no relevant data
-license = "free"
-website = "https://example.com"
+license = "MIT"
+website = "https://zipline.diced.sh/"
 demo = "https://demo.example.com"
 admindoc = "https://yunohost.org/packaging_apps"
 userdoc = "https://yunohost.org/apps"
@@ -32,7 +32,7 @@ cpe = "???"
 fund = "???"
 
 [integration]
-yunohost = ">= 11.1.21"
+yunohost = ">= 11.2"
 # FIXME: can be replaced by a list of supported archs using the dpkg --print-architecture nomenclature (amd64/i386/armhf/arm64), for example: ["amd64", "i386"]
 architectures = "all"
 multi_instance = true
