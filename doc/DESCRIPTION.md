@@ -1,1 +1,1 @@
-This is a dummy description of this app features
+Zipline is a ShareX/file upload server that is easy to use, packed with features, and with an easy setup! 
